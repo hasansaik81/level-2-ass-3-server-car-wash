@@ -1,6 +1,6 @@
 # Car Wash Booking System
 
-### Live URL: https://y-cvefwhbru-hasans-projects-3bda48be.vercel.app/
+###  Live URL: https://y-hazel-three.vercel.app/
 
 ### Technology used
 
