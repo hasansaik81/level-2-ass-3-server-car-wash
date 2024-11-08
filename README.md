@@ -1,6 +1,6 @@
 # Car Wash Booking System
 
-### Live URL: https://assignment-3-drab-omega.vercel.app/
+### Live URL: https://y-cvefwhbru-hasans-projects-3bda48be.vercel.app/
 
 ### Technology used
 
@@ -28,7 +28,7 @@
 1. First clone this repository on your device with this command line:
 
 ```
-git clone https://github.com/shiningsudipto/level-2-assignment-3
+git clone :https://github.com/hasansaik81/level-2-ass-3-server-car-wash
 ```
 
 2. After cloning the repository install all necessary packages with:
