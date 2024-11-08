@@ -7,12 +7,20 @@ const app: Application = express()
 
 // parser
 app.use(express.json())
-app.use(
-  cors({
-    origin: [ 'http://localhost:5173'], // Allow your frontend URL
-    credentials: true, // Allow credentials to be included
-  }),
-)
+
+
+app.use(cors({
+    origin: 'https://car-wash-frontend-gules.vercel.app' , // Allow your frontend origin
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
+    credentials: true // If you need cookies or authentication headers
+}));
+
+// app.use(
+//   cors({
+//     origin: [ 'https://car-wash-frontend-gules.vercel.app'], // Allow your frontend URL
+//     credentials: true, // Allow credentials to be included
+//   }),
+// )
 
 // application routes
 app.use('/api', router)
@@ -26,3 +34,5 @@ app.use(globalErrorHandler)
 app.use(notFound)
 
 export default app
+
+// http://localhost:5173
