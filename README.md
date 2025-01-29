@@ -1,7 +1,6 @@
 # Car Wash Booking Sy
 =======
-###  Live URL: https://y-hazel-three.vercel.app/
->>>>>>> 65ac6310a496d6980b9c27fca02d0b4c12d5b9ca
+###  Live URL:https://level-2-ass-3-server-car-wash.vercel.app
 
 
 ### Technology used

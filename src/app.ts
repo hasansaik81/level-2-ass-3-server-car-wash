@@ -8,24 +8,19 @@ const app: Application = express()
 // parser
 app.use(express.json())
 
-const allowedOrigins = ['http://localhost:5173', 'https://car-wash-frontend-gules.vercel.app'];
+
+
+
+
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
+    origin: [ "https://level2-ass5-car-wash-main-hasansaik81-hasans-projects-3bda48be.vercel.app" , 'http://localhost:5173'] ,
+
+    
+    // methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
+    credentials: true // If you need cookies or authentication headers
 }));
 
 
-
-// app.use(cors({
-//     origin: ['https://car-wash-frontend-gules.vercel.app' , 'http://localhost:5173'] ,
-//     // methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
-//     credentials: true // If you need cookies or authentication headers
-// }));
 
 
 // application routes
@@ -42,3 +37,5 @@ app.use(notFound)
 export default app
 
 // http://localhost:5173
+
+
