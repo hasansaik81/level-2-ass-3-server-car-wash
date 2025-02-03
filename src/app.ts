@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 app.use(cors({
-    origin: [ "https://level2-ass5-car-wash-main-hasansaik81-hasans-projects-3bda48be.vercel.app" , 'http://localhost:5173'] ,
+    origin: [ "https://level2-ass5-car-wash-main.vercel.app" , 'http://localhost:5173'] ,
 
     
     // methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
@@ -37,5 +37,7 @@ app.use(notFound)
 export default app
 
 // http://localhost:5173
+
+// https://level2-ass5-car-wash-main-hasansaik81-hasans-projects-3bda48be.vercel.app
 
 
